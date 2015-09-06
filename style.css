@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+ background-color: #FFF;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.title {
+  text-align: center;
+  color: #390E41;
+  background-color: #FFF;
+  cursor: default;
+}
+
+.sample-card {
+  cursor: pointer;
+	height: 150px;
+  background-color: #FFF;
+	text-align: center;
+	border: 1px solid #390E41; 
+	padding-top: 15px;
+}
+
+.sample-card-label {
+	color: #390E41;
+  font-size: 24px;
+}
+
+.sample-card-key-label {
+  color: #390E41;
+	font-size: 38px;
+}
