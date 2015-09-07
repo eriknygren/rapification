@@ -67,9 +67,9 @@
     buttonGoesBoom(sampleID + '-container');
   }
 
-  jQuery(document).ready(function(){
+  document.addEventListener("DOMContentLoaded", function(event) { 
     renderSamples();
-    $(document).keypress(onKeyPress);
+    document.addEventListener("keypress", onKeyPress);
   });
 
   var randomArray = [
